@@ -1,5 +1,5 @@
   
-  ## There is only one correct answer to all the questions
+  ## **There is only one correct answer to all the questions**
  
  __1 . Considering Aggregates and the SQL Tool, which of the following is the correct option?__
  
