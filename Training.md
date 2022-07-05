@@ -20,3 +20,13 @@
   __C__ No, since it is exactly the same.
   
   __D__ No, it is preferable to use the Entity instead of the Structure.
+  
+  __3 . Regarding non-SELECT queries, which of the following options is correct?__
+  
+  __A__ It is not possible to execute DELETE queries with the SQL Tool.
+
+  __B__ It is not possible to use Query Parameters in Non-SELECT queries.
+
+  __C__ It is mandatory to specify all Attributes in an INSERT query.
+
+  __D__ It is mandatory to set the Output Entity or Structure.
