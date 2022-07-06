@@ -254,7 +254,7 @@
   
   __C__ Each Button Group Item within a Button Group has a Variable property to save the option chosen by the user.
   
-  __D__The Variable property of the Dropdown will hold the value selected by the user. That value is defined in the Options Value property.
+  __D__ The Variable property of the Dropdown will hold the value selected by the user. That value is defined in the Options Value property.
  
   __26 . Considering Inputs and Labels, which of the following options is correct?__
   
@@ -264,7 +264,7 @@
   
   __C__ To access the value submitted in an Input widget, we can simply use InputName.Value.
   
-  __D__Labels associated with mandatory fields will display a visual cue on the Screen.
+  __D__ Labels associated with mandatory fields will display a visual cue on the Screen.
 
   __27 . Regarding Indexes, which of the following options is correct?__
  
