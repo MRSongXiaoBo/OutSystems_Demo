@@ -315,3 +315,185 @@
   __C__ When List Items have the full swiping option activated, the List Action is not necessary.
   
   __D__ The List Action triggers a Screen Action that will have the logic to be executed on swipe.  
+  
+  __32 . Client Actions and Server Actions can have the following variables:__
+ 
+  __A__ Input and Output Parameters, but no Local variables.
+  
+  __B__ Input Parameters and Local Variables, but no Output Parameters.
+  
+  __C__ Input and Output Parameters, as well as Local Variables.
+  
+  __D__ Output Parameters and Local Variables, but no Input Parameters.
+  
+  __33 . Regarding the If statement, which of the following options is false?__
+   
+  __A__ Both True and False branches are mandatory.
+  
+  __B__ Only one of the branches is executed, depending on the If condition's outcome.
+  
+  __C__ If statements can also be used to implement ad-hoc loops.
+  
+  __D__ More branches may be added if needed.
+    
+  __34 . Regarding the Switch statement, which of the following options is false?__
+   
+  __A__ The first branch that the condition evaluates to True is executed.
+  
+  __B__ Every branch that evaluates to True is executed.
+  
+  __C__ If no branch evaluates to True, the Otherwise branch is executed.
+  
+  __D__ The Otherwise branch must exist.
+    
+  __35 . If we have multiple Exception Handlers in an Action flow and an Exception is raised...__
+  
+  __A__ ... the execution is always moved to the Global Exception Handler.
+  
+  __B__ ... the execution is moved to the Exception Handler that is most specific to the Exception.
+  
+  __C__ ... the execution is moved to all Exception Handlers of the Action.
+  
+  __D__ ... a Switch statement is needed to select which Exception Handler will continue the execution.
+    
+  __36 . Considering that we can add several filters to an Aggregate, which of the following options is false?__
+   
+  __A__ A record is included in the output if it matches at least one of the filters.
+  
+  __B__ Filters are concatenated with the AND operator.
+  
+  __C__ All filters are translated to SQL and included in the WHERE clause.
+  
+  __D__ Logical operators and some built-in functions can be used inside filters.
+   
+  __37 . Regarding Sorting in Aggregates, which of the following options is correct?__
+   
+  __A__ Aggregates only support one sorting criterion.
+  
+  __B__ If more than one sorting criterion is defined, all of them must have the same direction (ascending or descending).
+  
+  __C__ It is mandatory to set the direction for all sorting criteria (ascending or descending).
+  
+  __D__ It is only possible to set multiple sorting criteria if duplicate records exist in the entity.
+    
+  __38 . In an Aggregate, the purpose of the Test Values section is…__
+   
+  __A__ To define values for testing the preview of the Aggregate's output.
+  
+  __B__ To set the conditions to get specific records, not all the records.
+  
+  __C__ To define the order of its output records.
+  
+  __D__ To define the Entities we want to get records from.
+    
+  __39 . Which of the following options is false?__
+   
+  __A__ Input Parameters allow passing data between Screens when navigating between them.
+  
+  __B__ Local Variables from a Screen may be directly accessed from another Screen.
+  
+  __C__ Local Variables allow temporarily storing relevant information inside a Screen.
+  
+  __D__ When the value of a Local Variable changes the user interface reacts immediately.
+ 
+  __40 . Regarding the If Widget, which of the following options is false?__
+  
+  __A__ Functions can be used inside the Condition of an If.
+  
+  __B__ More branches may be added to an If Widget.
+  
+  __C__ Only one of the branches is shown at runtime.
+  
+  __D__ Multiple widgets may be added inside each branch.
+    
+  __41 . Regarding the Container widget, which of the following options is false?__
+  
+  __A__ Containers allow grouping several widgets.
+  
+  __B__ By default, containers can span from 1 column up to 12 columns.
+  
+  __C__ Containers can be placed inside other containers.
+  
+  __D__ All containers must have at least one widget inside.
+    
+  __42 . Which of the following statements about Entities is false?__
+  
+  __A__ Entities have attributes.
+  
+  __B__ Entities do not require an identifier.
+  
+  __C__ Entities are only stored in memory.
+  
+  __D__ Entities can be created, updated, and deleted.
+ 
+  __43 . Which of the following is a characteristic of a Static Entity?__
+  
+  __A__ It can't be changed after the first publish.
+  
+  __B__ It contains a set of Records.
+  
+  __C__ It has two Entity Actions.
+  
+  __D__ It can't be extended with any new attributes.
+   
+  __44 . Regarding the Records of a Static Entity, which of the following options is false?__
+   
+  __A__ The values for all 4 default attributes must be defined.
+  
+  __B__ Records can only be added and removed during development.
+  
+  __C__ The record identifier is the identifier of Static Entity.
+  
+  __D__ The Identifier attribute is required for all Static Entities.
+   
+    
+  __45 . Regarding Reactive Web Apps in OutSystems, which of the following options is false?__
+   
+  __A__ A Reactive Web App is a cross-device app.
+  
+  __B__ Data requests are executed synchronously.
+  
+  __C__ The code generated by OutSystems results in a single-page application.
+  
+  __D__ A developer builds the Reactive Web App in Service Studio.
+   
+  __46 . Which of the following options is false regarding Modules and applications?__
+   
+  __A__ An application is composed of a set of Modules.
+  
+  __B__ Modules can be of different types, such as Reactive Web App, Blank, or Extension.
+  
+  __C__ Elements can be exposed and reused, but only within the same application.
+  
+  __D__ A Module that reuses an element from another Module is called a Consumer.
+
+    
+  __47 . One of the following Tools allows you to manage the application's lifecycle across an infrastructure. Which one?__
+
+  __A__ Service Center
+  
+  __B__ LifeTime
+  
+  __C__ Service Studio
+  
+  __D__ Integration Studio
+  
+  __48 . Considering the Function property in Client Actions, which of the following options is correct?__
+  
+  __A.__ Setting the Function property to Yes restricts the Action to have only one Output Parameter.
+      
+  __B.__ Setting the Function property to No ensures the Action can only be used in the module where it is defined.
+      
+  __C.__ Setting the Function property to Yes is not possible, if the Action is exposed to other modules as Public.
+      
+  __D.__ Setting the Function property to No ensures the Action can only be used in Screen Expressions.
+      
+  __49__ . A Form has a Save button with the Built-in Validations property set to Yes.Which validations are automatically performed when a user clicks the button?__
+      
+  __A.__ Check if the mandatory fields are filled in.
+      
+  __B.__ Check if the mandatory fields are filled in and if the non-mandatory fields that are later used in the logic, are also filled in.
+      
+  __C.__ Check if the mandatory fields are filled in and if the data submitted by the user matches the data type expected in the input fields.
+      
+  __D.__ Check if the mandatory fields are filled in and if the data submitted by the user matches the data type of the Form’s data source. 
