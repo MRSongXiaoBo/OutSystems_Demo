@@ -94,7 +94,7 @@
   
   __C__ All Aggregates, by default, have the Fetch property set to On Demand.
   
-  __D__T he On After Fetch Event is triggered for every Aggregate, regardless of its Fetch property.
+  __D__ The On After Fetch Event is triggered for every Aggregate, regardless of its Fetch property.
   
   __11 . Consider an Aggregate with the Fetch property set to Only On Demand. When does that Aggregate run?__
   
