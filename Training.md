@@ -244,3 +244,74 @@
   __C__ Besides input widgets, a Form can hold other widgets such as Links and Buttons.
   
   __D__ A Form is useful to validate data submitted by the user.
+  
+  
+  __25-1 . Considering the Dropdown and the Button Group, which of the following options is false?__
+ 
+  __A__ A Button Group needs a Button Group Item to represent each option that the user will have available to choose from.
+  
+  __B__ The List property of the Dropdown defines the data that will appear as options to a user on a Screen.
+  
+  __C__ Each Button Group Item within a Button Group has a Variable property to save the option chosen by the user.
+  
+  __D__The Variable property of the Dropdown will hold the value selected by the user. That value is defined in the Options Value property.
+ 
+  __26 . Considering Inputs and Labels, which of the following options is correct?__
+  
+  __A__ Every input must have a Label associated with.
+  
+  __B__ An input widget can only be used for the Text data type.
+  
+  __C__ To access the value submitted in an Input widget, we can simply use InputName.Value.
+  
+  __D__Labels associated with mandatory fields will display a visual cue on the Screen.
+
+  __27 . Regarding Indexes, which of the following options is correct?__
+ 
+  __A__ Custom indexes cannot be added to an Entity.
+  
+  __B__ Indexes speed up data retrieval without any kind of impact.
+  
+  __C__ Unique indexes help prevent data duplication.
+  
+  __D__ Indexes over referenced attributes cannot be deleted.
+
+  __28 . Which of the following steps is necessary to create a 1-to-1 relationship between Entity A and Entity B?__
+  
+  __A__ Set the data type of the identifier attribute of Entity B to Entity A Identifier.
+  
+  __B__ Add a new Entity C, with two reference attributes of type Entity A Identifier and Entity B Identifier.
+  
+  __C__ Add a new reference attribute of type Entity B Identifier to Entity A.
+  
+  __D__ Add a new Entity C, with the identifier attribute being a composition of types Entity A Identifier and Entity B Identifier.
+
+  __29 . Regarding Screen Aggregates, which of the following options is false?__
+  
+  __A__ Screen Aggregates run asynchronously and in parallel.
+  
+  __B__ Screen Aggregates only exist within the scope of the Screen where they were defined.
+  
+  __C__ Screen Aggregates can only be executed when explicitly called.
+  
+  __D__ Screen Aggregates can only fetch data from the database.
+  
+  __30 . How is the data fetched by an Aggregate bound to a Table or a List widget?__
+ 
+  __A__ By setting the Source property of the widget to the output of the Aggregate.
+  
+  __B__ The binding is done automatically since the Aggregate is in the scope of the Screen.
+  
+  __C__ By adding an Expression inside the widget that refers to an attribute of the data fetched by the Aggregate.
+  
+  __D__ By creating a Screen Action that programmatically assigns the widget to the data fetched by the Aggregate.
+
+  __31 . Considering ListItem and List Actions, which of the following options is false?__
+
+  __A__ List Actions can only be used inside List Items.
+  
+  __B__ List Items can be used outside of Lists.
+  
+  __C__ When List Items have the full swiping option activated, the List Action is not necessary.
+  
+  __D__ The List Action triggers a Screen Action that will have the logic to be executed on swipe.  
